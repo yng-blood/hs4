@@ -1,181 +1,105 @@
-body{
-    background-color: gray;
-}
-
-.box1{
-    width: 419px;
-    height: 119px;
-    color: rgb(101, 33, 87);
-    text-shadow: rgb(101 33 87) 1px 1px 1px;
-    background-color: white;
-    border-radius: 11px;
-    border: 6px solid red;
-    text-align: center;
-    position: relative;
-    font-size: 21px;
-    top: 20px;
-    left: 542px;
-    color:rgb(71, 11, 71);
-    text-shadow: 1px 1px 1px rgb(101, 33, 87);
-    box-shadow: 5px 5px 0px rgb(77, 5, 77);
-    font-style: italic;
-    font-weight: bold;
-}
-
-.container{
-    width: 1493px;
-    height: 708px;
-    border: 5px solid green;
-    position: relative;
+body{ background-color: rgb(255, 255, 255);}
+.box1{ height:25px;
+    width: 100%;
+text-align: center;
+background-image: linear-gradient( to right , red,green,greenyellow,yellow);
 }
 
 .box2{
-    width: 234px;
-    height: 255px;
-    border-radius: 18px;
-    border: 6px solid red;
-    background-color: white;
-    box-shadow: 5px 5px 0px rgb(77, 5, 77);
-    top: 4px;
-    position: relative;
-    text-align: center;
-    font-size: 29px;
-    color:rgb(71, 11, 71);
-    text-shadow: 2px 2px 2px rgb(101, 33, 87);
-    
+    border: 5px solid red;
+    background-color: rgb(173, 173, 243);
+    padding-left: 45%;
 }
-
+.boxaq{border: black 1px solid;
+    background-color: rgb(117, 241, 188);
+    height:150px;
+}
+#a{ margin-left: 5%; padding-left: 1%; border: black 3px solid;
+    background-color: rgb(83, 249, 249);
+    height: 55px ;
+    width: 320px;
+position: absolute;
+left: 1px;}
+#b{ margin-left: 35%; padding-left: 1%; border: black 3px solid;
+    background-color: rgb(83, 249, 249);
+    height: 55px ;
+    width: 320px;
+position: absolute;
+left: 1%;}
+#c{ margin-left: 35%; padding-left: 1%; border: black 3px solid;
+    background-color: rgb(83, 249, 249);
+    height: 55px ;
+    width: 320px;
+position: absolute;
+left: 32%;}
+#d{ margin-left: 35%; padding-left: 1%; border: black 3px solid;
+    background-color: aqua;
+height: 55px ;
+width: 320px;
+position: absolute;
+left: 1%;
+top: 45%;}
 .box3{
-    width: 234px;
-    height: 255px;
-    border-radius: 18px;
-    border: 6px solid red;
-    background-color: white;
-    box-shadow: 5px 5px 0px rgb(77 5 77);
-    position: absolute;
-    top: 404px;
-    font-size: 25px;
-    color:rgb(71, 11, 71);
-    text-shadow: 2px 2px 2px rgb(101, 33, 87);
-    
-}
+    background-image: linear-gradient( to right , red, orange, tomato);
+text-align: center;}
+.CCL{height:400px; 
+background-image:radial-gradient(blue,blue,blue, rgb(0, 128, 87),rgb(81, 226, 81));} 
 
-img{
-    width: 214px;
-    height: 227px;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-.box4{
-    width: 234px;
-    height: 255px;
-    border-radius: 18px;
-    border: 6px solid red;
-    background-color: white;
-    box-shadow: 5px 5px 0px rgb(77, 5, 77);
-    top: 4px;
-    position: absolute;
-    left: 1167px;
-    
-}
-
-
-.box5{
-
-    width: 234px;
-    height: 255px;
-    border-radius: 18px;
-    border: 6px solid red;
-    background-color: white;
-    box-shadow: 5px 5px 0px rgb(77 5 77);
-    position: absolute;
-    top: 404px ;
-    left: 1167px;
-    font-size: 25px;
-    color:rgb(71, 11, 71);
-    text-shadow: 2px 2px 2px rgb(101, 33, 87);
-    
-}
-
-button{
-    width: 101px;
-    height: 24px;
-    border: none;
-    background-color: brown;
-    border-radius: 10px;
-    font-size: 13px;
-    color: black;
-}
-
-.fixed{
-    width: 450px;
-    height: 82px;
-    color: rgb(101, 33, 87);
-    text-shadow: 1px 1px 1px rgb(101 33 87);
-    background-color: greenyellow;
-    border-radius: 14px;
-    border: 6px solid red;
-    text-align: left;
-    position: fixed;
-    bottom: 20px;
-    left: 521px;
-}
-
-
-.boxx{
-    width: 722px;
-    height: 812px;
-    border: 7px solid purple;
-    position: relative;
-    top: 29px;
-    left: 359px;
-    background-color: green;
+.CCL1{ height: 90px;
+    width: 190px;
+    border-radius: 15px;
     text-align: center;
-    color: black;
-    font-size: 21px;
+    border: 2PX solid red;
+color: red;
+background-color: yellow;
+margin: 150px 40px 0 40px ;
+padding-top: 15px;
 }
+.CCL2{height: 90px;
+    width: 190px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2PX solid red;
+color: red;
+padding-top: 15px;
+background-color: yellow;
+margin: 150px 40px 0 40px ;}
+.CCL3{height: 90px;
+    width: 190px;
+    border-radius: 15px;
+    padding-top: 15px;
+    text-align: center;
+    border: 2PX solid red;
+color: red;
+background-color: yellow;
+margin: 150px 40px 0 40px ;}
+.CCL4{height: 90px;
+    width: 190px;
+    border-radius: 15px;
+    padding-top: 15px;
+    text-align: center;
+    border: 2PX solid red;
+color: red;
+background-color: yellow;
+margin: 150px 40px 0 40px ;}
+.box4{ border: 1px red solid;
+background-color: tomato;
+color: white;
+text-shadow: 4px blue;
+text-align: center;}
+table{border: 3px solid; text-align: left;}
+#you{ height: 30px; width:300px ; border: 1px white solid; background-color: rgb(33, 201, 39);color: white;
+    font-size: x-large;}
+#we{  height: 30px; width:300px ; border: 1px white solid; background-color:blue;color: white;
+    font-size: x-large;}
+#get{  height: 30px; width:300px ; border: 1px white solid; background-color:rgb(131, 131, 224);color: white;
+    font-size: x-large;}
+ #st{  border: 1px white solid; background-color:rgb(0, 0, 0);color: white;
+    font-size: x-large;}
+#t{  border: 1px white solid; background-color:rgb(236, 147, 46);color: white;
+        font-size: x-large;}
+.box1a{ height:25px; width: 100%; text-align: center; background-color: rgb(151, 151, 167);  }
 
-.boxx1{
-    width: 358px;
-    height: 369px;
-    position: absolute;
-    border: 2px yellow;
-    background-color: yellow;
-    top: 122px;
-    color:rgb(71, 11, 71);
-    font-weight: bold;
-    font-size: 20px;
-    font-style: italic;
-    line-height: 30px;
-    
-}
+        
 
-.boxx2{
-    width: 358px;
-    height: 369px;
-    position: absolute;
-    border: 2px yellow;
-    background-color: yellow;
-    left: 364px;
-    top: 122px;
-    color:rgb(71, 11, 71);
-    font-weight: bold;
-    font-size: 20px;
-    font-style: italic;
-    line-height: 30px;
-}
 
-.boxx3{
-    width: 721px;
-    height: 300px;
-    position: absolute;
-    border: 2px yellow;
-    background-color: yellow;
-    top: 509px;
-    color:rgb(71, 11, 71);
-    font-weight: bold;
-    font-size: 20px;
-    font-style: italic;
-    line-height: 30px;
-}
